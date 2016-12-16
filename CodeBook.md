@@ -20,9 +20,9 @@ The dataset includes the following files:
 
 - 'test/y_test.txt': Test labels.
 
-Transformation details
+##Transformation details
 
-There are 5 parts:
+##There are 5 parts:
 
 1) Merges the training and the test sets to create one data set.
 2) Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -30,13 +30,15 @@ There are 5 parts:
 4) Appropriately labels the data set with descriptive activity names.
 5) Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-How run_analysis.R
+##How run_analysis.R
 
-Load data table library - library(data.table)
-Set working directory setwd() to location of data files listed above.
-Variables:
-trainSet and testSet are the combined data of test and train text files
-mergedDataSet is the combined testSet, and trainSet 
-extractedDataSet is the mergedDataSet that contain the mean and Standard deviation data
-tidyData is the cleaned final data file that is written to Tidy.txt
+1) Load data table library  library(data.table)
+
+2) Set working directory setwd() to location of data files listed above.
+
+###Variables:
+1. trainSet and testSet are the combined data of test and train text files
+2. mergedDataSet is the combined testSet, and trainSet 
+3. extractedDataSet is the mergedDataSet that contain the mean and Standard deviation data
+4. tidyData is the cleaned final data file that is written to Tidy.txt
 
